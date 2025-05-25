@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+.header {
+  background-color: gray;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+  color: white;
+}
+
+.header img {
+  height: 150px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+}
+
+.nav {
+  background-color: rgb(206, 205, 205);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  scrollbar-width: none;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  margin-left: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.links a:hover {
+  color: black;
+}
+
+.main {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.left {
+  flex: 2;
+}
+
+.card {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px;
+  gap: 15px;
+}
+
+.card img {
+  height: 150px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.card-text h1 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.card-text h4 {
+  color: #cc3366;
+  margin: 0 0 10px;
+}
+
+.card-text p {
+  margin: 0;
+}
+
+.side {
+  flex: 1;
+}
+
+.sidebar {
+    gap: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.sidebar h3 {
+  color: #cc3366;
+  margin-top: 0;
+}
+
+.recipes {
+  list-style-type: none;
+  padding: 0;
+  color: #cc3366;
+}
+
+.footer {
+  background-color: #d9d9d9;
+  text-align: center;
+  padding: 10px;
+  margin-top: 150px;
+  font-size: 14px;
+  color: #666;
+}
